@@ -1,15 +1,13 @@
+# 04. 폼 UI 구현하기: controlled vs uncontrolled
 
-# 🎯 요구 사항
+## 🎯 요구 사항
 - GNB의 레스토랑 추가 버튼을 클릭하면 레스토랑 추가 폼이 모달로 뜨도록 구현해 주세요
   - (작은 단계로 구현해보기 1) 이전 단계에서 만든 레스토랑 상세 정보 모달을 쓰지 않고 레스토랑 추가용 모달을 따로 만들어서 띄웁니다.
   - (작은 단계로 구현해보기 2) 이전 단계에서 만든 모달을 재사용하여 구현합니다. 
 - `<input/>`, `<textarea/>`에 값을 입력하고 '확인' 버튼을 클릭하면 레스토랑 목록에 추가되도록 구현해 주세요. 
   - 유효성 검사는 하지 않습니다. 아주 간단하게 입력값을 처리해보는 구현만 해도 충분합니다.
 
-# 🔗 참고 문서
-- [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
-
-# ✅ 키워드
+## ✅ 키워드
 - lifting state up
 - controlled vs uncontrolled
 - children props
@@ -33,3 +31,9 @@
   <p></p>
 </Modal>
 ```
+
+## 🧙‍♀️ 진행 가이드
+- 진행 시간: 1시간~1시간 30분 내에 완료하는 것을 목표로 합니다. 
+
+## 🔗 참고 문서
+- [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
