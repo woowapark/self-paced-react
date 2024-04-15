@@ -8,12 +8,13 @@
 ### 구현 결과 예시
 ```javascript
 // App.jsx
-{isModalOpen && <RestaurantInfoModal {/** 적절한 props */}/>}
+{isModalOpen && <RestaurantDetailModal {/** 적절한 props */}/>}
 ```    
 
 ## ✅ 키워드
 - event handler (feat. side effect)
 - conditional rendering
+- lifting state up
 
 ## 🧙‍♀️ 진행 가이드
 - 진행 시간: 1시간 내에 완료하는 것을 목표로 합니다. 

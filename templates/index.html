@@ -20,7 +20,7 @@
   <main>
     <!-- 카테고리/정렬 필터 -->
     <section class="restaurant-filter-container">
-      <select name="category" id="category-filter" class="restaurant-filter">
+      <select name="category" id="category-filter" class="restaurant-filter" aria-label="음식점 카테고리 필터">
         <option value="전체">전체</option>
         <option value="한식">한식</option>
         <option value="중식">중식</option>
@@ -101,7 +101,9 @@
         </li>
       </ul>
     </section>
+  </main>
 
+  <aside>
     <!-- 음식점 정보 모달 -->
     <div class="modal modal--open">
       <div class="modal-backdrop"></div>
@@ -157,7 +159,7 @@
         </form>
       </div>
     </div>
-  </main>
+  </aside>
 </body>
 
 </html>

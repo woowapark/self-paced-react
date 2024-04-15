@@ -10,16 +10,21 @@
 - 예를 들어, `App.jsx`의 return문을 아래와 같이 작성했을 때에 앱이 정상적으로 그려지도록 구현해 주세요. 
 - 컴포넌트의 이름이나 구조는 마음대로 변경해도 좋습니다    
 ```javascript
+function App() {
   return (
     <>
-      <GNB />
+      <Header />
       <main>
         <CategoryFilter />
         <RestaurantList />
-        <Modal/>
       </main>
+      <aside>
+        <RestaurantDetailModal />
+        <AddRestaurantModal />
+      </aside>
     </>
-  )
+  );
+}
 ```
 
 ## ✅ 키워드
@@ -34,7 +39,7 @@
   - export / import
 
 ## 🧙‍♀️ 진행 가이드
-- 진행 시간: 30분 ~ 1시간 내에 완료하는 것을 목표로 합니다. 
+- 진행 시간: 1시간 내에 완료하는 것을 목표로 합니다. 
 
 ## 🔗 참고 문서
 - [Thinking in React](https://react.dev/learn/thinking-in-react)의 Step1-2 에 있는 것처럼 나만의 컴포넌트 단위를 나누어 보세요.
